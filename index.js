@@ -1,4 +1,4 @@
-const factorial = (num) => {
-  if (num === 0) return 1;
-  return num * factorial(num - 1);
+const difference = (a, b) => {
+  const s = new Set(b);
+  return a.filter((x) => !s.has(x));
 };
